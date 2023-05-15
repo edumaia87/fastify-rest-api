@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
